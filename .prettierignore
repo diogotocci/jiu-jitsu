@@ -1,0 +1,16 @@
+# Generated output, lockfiles, vendored agent skills and Graphify artifacts are not formatted.
+dist/
+node_modules/
+pnpm-lock.yaml
+skills-lock.json
+.agents/skills/
+.claude/
+graphify-out/
+test-results/
+playwright-report/
+.playwright-cli/
+scratch/
+docs/
+*.md
+.graphifyignore
+.superpowers/
