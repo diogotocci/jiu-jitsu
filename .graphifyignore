@@ -1,0 +1,18 @@
+# Graphify index scope. .gitignore is applied as well; these patterns win on conflicts.
+# Mirror of .agents/skills kept for Claude Code (duplicate content).
+.claude/
+# Third-party skills vendored verbatim; not part of the app architecture.
+.agents/skills/
+# Generated or binary assets.
+public/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.ico
+*.svg
+# Lockfiles.
+pnpm-lock.yaml
+skills-lock.json
+# Graphify's own output.
+graphify-out/
