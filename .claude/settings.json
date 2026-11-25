@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [{ "type": "command", "command": "node .agents/hooks/session-start.mjs" }]
+      }
+    ]
+  },
+  "permissions": {
+    "deny": ["Bash(git push --force:*)", "Bash(git push -f:*)", "Bash(gh pr merge:*)"]
+  }
+}
